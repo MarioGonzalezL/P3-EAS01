@@ -15,7 +15,7 @@ public:
     Rectangle(Vector2f size, Vector2i position);
 
     void update();
-    void setObjective(Vector2f objective);
+    void setObjective(Vector2f objectivo);
     void drawTo(RenderWindow &window);
 };
 
